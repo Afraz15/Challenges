@@ -1,0 +1,67 @@
+body{
+    display: flex;
+    flex-direction: column;    
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bolder;
+    color: white;
+
+    div{
+        background: gray;
+    }
+    
+    .logo{
+        height: 2rem;
+        background: url("/img/logo.png");
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: center;
+
+    }
+    .ppl{
+        background: url("/img/image-hero.png");
+        height: 20rem;
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    p{
+        width: 50%;
+        margin: auto;
+    }
+
+}
+
+.btn{
+    padding: 1.5rem;
+    .btn-left, .btn-right{
+        display: inline;
+        margin-right: 10px;
+        button{
+            border: 0;
+            padding: 10px 20px;
+            color: gray;
+            border-radius: 20px;
+            background-color: blue;
+            
+        }
+    }
+}
+
+.line{
+    height: 50px;
+    width: 1px;
+    background-color: black;
+    margin: 0 auto;
+}
+
+.circle{
+    border-radius: 50%;
+    border: 1px solid black;
+    width: 1.5rem;
+    margin: 0 auto;
+    
+}
+
+
+

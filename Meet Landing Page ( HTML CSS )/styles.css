@@ -1,0 +1,70 @@
+body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-align: center;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-weight: bolder;
+  color: white;
+}
+
+body div {
+  background: gray;
+}
+
+body .logo {
+  height: 2rem;
+  background: url("/img/logo.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+
+body .ppl {
+  background: url("/img/image-hero.png");
+  height: 20rem;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+body p {
+  width: 50%;
+  margin: auto;
+}
+
+.btn {
+  padding: 1.5rem;
+}
+
+.btn .btn-left, .btn .btn-right {
+  display: inline;
+  margin-right: 10px;
+}
+
+.btn .btn-left button, .btn .btn-right button {
+  border: 0;
+  padding: 10px 20px;
+  color: gray;
+  border-radius: 20px;
+  background-color: blue;
+}
+
+.line {
+  height: 50px;
+  width: 1px;
+  background-color: black;
+  margin: 0 auto;
+}
+
+.circle {
+  border-radius: 50%;
+  border: 1px solid black;
+  width: 1.5rem;
+  margin: 0 auto;
+}
+/*# sourceMappingURL=styles.css.map */
