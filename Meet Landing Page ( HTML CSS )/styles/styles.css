@@ -1,0 +1,169 @@
+body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bolder;
+  color: #414a4c;
+}
+
+body div {
+  display: block;
+}
+
+body .logo {
+  height: 3rem;
+  background: url("/img/logo.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  margin: 1rem 0 2rem 0;
+}
+
+body .ppl {
+  background: url("/img/image-hero.png");
+  height: 25rem;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+body h1 {
+  font-size: 3rem;
+}
+
+body p {
+  width: 50%;
+  margin: auto;
+  font-size: larger;
+}
+
+.btn {
+  padding: 1.5rem;
+}
+
+.btn .btn-left,
+.btn .btn-right {
+  display: inline;
+  margin-right: 10px;
+}
+
+.btn .btn-left button,
+.btn .btn-right button {
+  border: 0;
+  padding: 15px 25px;
+  color: white;
+  font-weight: bolder;
+  font-size: 1rem;
+  border-radius: 25px;
+  background-color: lightseagreen;
+}
+
+.bar {
+  padding: 0 0 8px 0;
+}
+
+.bar .line {
+  height: 50px;
+  width: 1px;
+  background-color: lightslategray;
+  margin: 0 auto;
+}
+
+.bar .circle {
+  border-radius: 50%;
+  border: 1px solid lightslategray;
+  width: 40px;
+  line-height: 40px;
+  color: lightslategray;
+  height: 40px;
+  margin: 0 auto;
+}
+
+.pics {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.pics img {
+  border-radius: 30px;
+  padding: 10px;
+  margin: 0 auto;
+  width: 280px;
+}
+
+.comment {
+  padding-bottom: 30px;
+}
+
+.comment h3 {
+  word-spacing: 8px;
+  letter-spacing: 2px;
+  font-size: 1.5rem;
+}
+
+.comment h2 {
+  letter-spacing: 1px;
+  font-size: 2rem;
+}
+
+.comment p {
+  margin: 0 auto;
+  width: 80%;
+}
+
+.line {
+  width: 1px;
+  background-color: black;
+  height: 3rem;
+  margin: 0 auto;
+}
+
+.circle {
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 50%;
+  margin: 0 auto;
+  border: 1px solid black;
+  margin-bottom: 5px;
+}
+
+.circle span {
+  line-height: 2.5rem;
+}
+
+.footer {
+  background: url("/img/footer.png");
+  background-size: contain;
+  background-position: center;
+  padding: 1rem;
+}
+
+.footer .infooter p {
+  width: 80%;
+  word-spacing: 2px;
+}
+
+.footer .infooter button {
+  border: 0;
+  border-radius: 40px;
+  padding: 1.2rem;
+  font-weight: bold;
+  color: white;
+  background-color: limegreen;
+  margin-bottom: 10px;
+  font-size: 1rem;
+}
+/*# sourceMappingURL=styles.css.map */
