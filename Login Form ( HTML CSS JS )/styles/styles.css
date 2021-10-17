@@ -1,0 +1,112 @@
+body {
+  font-family: sans-serif;
+  background: url(/img/bg-intro-desktop.png);
+  background-color: lightsalmon;
+}
+
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  color: white;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  padding-top: 5rem;
+}
+
+.container .text {
+  min-width: 400px;
+  max-width: 600px;
+  padding-left: 5px;
+  padding-bottom: 0.8rem;
+}
+
+.container .text h1 {
+  font-weight: 800;
+}
+
+.container .text p {
+  font-size: large;
+}
+
+.container .form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-align: center;
+  width: 400px;
+}
+
+.container .form .offer {
+  margin: 5px 0 1rem 0;
+}
+
+.container .form .offer button {
+  border: none;
+  border-radius: 0.8rem;
+  width: 100%;
+  padding: 1.2rem 1.5rem;
+  -webkit-box-shadow: 0 10px gray;
+          box-shadow: 0 10px gray;
+  font-size: medium;
+  font-weight: 700;
+}
+
+.container .form .a-form {
+  padding-top: 1rem;
+}
+
+.container .form .a-form form {
+  height: 350px;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 1rem;
+  background-color: lightyellow;
+  border-radius: 5px;
+  margin-bottom: 5px;
+  -webkit-box-shadow: 0 5px 0 0 gray;
+          box-shadow: 0 5px 0 0 gray;
+}
+
+.container .form .a-form form input {
+  border-radius: 3px;
+  border: 1px solid palegoldenrod;
+  margin: 5px;
+  padding: 1rem;
+  font-weight: 700;
+}
+
+.container .form .a-form form button {
+  border: none;
+  border-radius: 2px;
+  padding: 8px;
+  margin: 5px;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+.footer {
+  text-align: center;
+  padding: 2rem;
+  -webkit-text-decoration: underline brown;
+          text-decoration: underline brown;
+  color: khaki;
+}
+/*# sourceMappingURL=styles.css.map */

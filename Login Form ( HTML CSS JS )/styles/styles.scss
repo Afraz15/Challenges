@@ -1,0 +1,98 @@
+body {
+    font-family: sans-serif;
+    background: url(/img/bg-intro-desktop.png);
+    background-color: lightsalmon;
+    // div{
+    //     background-color: gray;
+    //     color: white;
+    //     margin-top: 5;
+    // }
+}
+
+
+.container {
+    display: flex;
+    flex-direction: row;
+    // background: gray;
+    color: white;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding-top: 5rem;
+
+    .text {
+        min-width: 400px;
+        max-width: 600px;
+        // width: 40%;
+        padding-left: 5px;
+        padding-bottom: 0.8rem;
+
+        h1 {
+            font-weight: 800;
+        }
+
+        p {
+            font-size: large;
+        }
+    }
+
+    .form {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        width: 400px;
+
+        .offer {
+            margin: 5px 0 1rem 0;
+
+            button {
+                border: none;
+                border-radius: 0.8rem;
+                width: 100%;
+                padding: 1.2rem 1.5rem;
+                box-shadow: 0 10px gray;
+                font-size: medium;
+                font-weight: 700;
+            }
+        }
+
+        .a-form {
+            padding-top: 1rem;
+
+            form {
+                height: 350px;
+                justify-content: space-around;
+                display: flex;
+                flex-direction: column;
+                padding: 1rem;
+                background-color: lightyellow;
+                border-radius: 5px;
+                margin-bottom: 5px;
+                box-shadow: 0 5px 0 0 gray;
+
+                input {
+                    border-radius: 3px;
+                    border: 1px solid palegoldenrod;
+                    margin: 5px;
+                    padding: 1rem;
+                    font-weight: 700;
+                }
+
+                button {
+                    border: none;
+                    border-radius: 2px;
+                    padding: 8px;
+                    margin: 5px;
+                    font-weight: bold;
+                    letter-spacing: 1px;
+                }
+            }
+        }
+    }
+}
+
+.footer {
+    text-align: center;
+    padding: 2rem;
+    text-decoration: underline brown;
+    color: khaki;
+}
