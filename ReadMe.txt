@@ -1,3 +1,3 @@
 -If there are some missing pics or no styles then try opening the project using live server ( vs code live server extension ).
 -these bugs are occuring because the path of the file include '/' in the start. 
--If you don't want to use that then open the files and change their path from '/some-file.css | /img.png' to 'some-file.css | img.png'.
+-If you don't want to use the extension then open the files and change their path from '/some-file.css | /img.png' to 'some-file.css | img.png'.
